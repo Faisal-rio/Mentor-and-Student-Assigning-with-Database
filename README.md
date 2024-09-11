@@ -15,7 +15,7 @@ A Node.js and MongoDB-based system for managing mentor and student assignments. 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/mentor-student-app.git
+git clone https://github.com/Faisal-rio/Mentor-and-Student-Assigning-with-Database
 cd mentor-student-app
 npm install
 run node index.js
