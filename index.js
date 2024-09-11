@@ -14,6 +14,10 @@ connectDB();
 // Use API routes
 app.use('/api', apiRoutes);
 
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
+// Serve static files (e.g., for a frontend)
+app.use(express.static('public')); // Assuming you have a 'public' folder for static files
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
